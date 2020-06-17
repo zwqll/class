@@ -1,0 +1,1506 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 1.587 seconds.
+Prefix dict has been built succesfully.
+2019-09-04 15:22:25,528 : INFO : collecting all words and their counts
+2019-09-04 15:22:25,528 : INFO : PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2019-09-04 15:22:27,946 : INFO : collected 519 word types from a corpus of 49914 raw words and 8991 sentences
+2019-09-04 15:22:27,947 : INFO : Loading a fresh vocabulary
+2019-09-04 15:22:27,950 : INFO : effective_min_count=1 retains 519 unique words (100% of original 519, drops 0)
+2019-09-04 15:22:27,951 : INFO : effective_min_count=1 leaves 49914 word corpus (100% of original 49914, drops 0)
+2019-09-04 15:22:27,956 : INFO : deleting the raw counts dictionary of 519 items
+2019-09-04 15:22:27,958 : INFO : sample=0.001 downsamples 64 most-common words
+2019-09-04 15:22:27,958 : INFO : downsampling leaves estimated 22193 word corpus (44.5% of prior 49914)
+2019-09-04 15:22:27,961 : INFO : estimated required memory for 519 words and 200 dimensions: 1089900 bytes
+2019-09-04 15:22:27,961 : INFO : resetting layer weights
+2019-09-04 15:22:27,981 : INFO : training model with 6 workers on 519 vocabulary and 200 features, using sg=0 hs=0 sample=0.001 negative=5 window=5
+2019-09-04 15:22:29,505 : INFO : EPOCH 1 - PROGRESS: at 57.19% examples, 8319 words/s, in_qsize 0, out_qsize 0
+2019-09-04 15:22:30,481 : INFO : worker thread finished; awaiting finish of 5 more threads
+2019-09-04 15:22:30,482 : INFO : worker thread finished; awaiting finish of 4 more threads
+2019-09-04 15:22:30,483 : INFO : worker thread finished; awaiting finish of 3 more threads
+2019-09-04 15:22:30,483 : INFO : worker thread finished; awaiting finish of 2 more threads
+2019-09-04 15:22:30,483 : INFO : worker thread finished; awaiting finish of 1 more threads
+2019-09-04 15:22:30,491 : INFO : worker thread finished; awaiting finish of 0 more threads
+2019-09-04 15:22:30,492 : INFO : EPOCH - 1 : training on 49914 raw words (22141 effective words) took 2.5s, 8848 effective words/s
+2019-09-04 15:22:32,060 : INFO : EPOCH 2 - PROGRESS: at 57.19% examples, 8045 words/s, in_qsize 0, out_qsize 0
+2019-09-04 15:22:33,059 : INFO : worker thread finished; awaiting finish of 5 more threads
+2019-09-04 15:22:33,061 : INFO : worker thread finished; awaiting finish of 4 more threads
+2019-09-04 15:22:33,062 : INFO : worker thread finished; awaiting finish of 3 more threads
+2019-09-04 15:22:33,062 : INFO : worker thread finished; awaiting finish of 2 more threads
+2019-09-04 15:22:33,064 : INFO : worker thread finished; awaiting finish of 1 more threads
+2019-09-04 15:22:33,071 : INFO : EPOCH 2 - PROGRESS: at 100.00% examples, 8629 words/s, in_qsize 0, out_qsize 1
+2019-09-04 15:22:33,071 : INFO : worker thread finished; awaiting finish of 0 more threads
+2019-09-04 15:22:33,071 : INFO : EPOCH - 2 : training on 49914 raw words (22190 effective words) took 2.6s, 8627 effective words/s
+2019-09-04 15:22:34,087 : INFO : EPOCH 3 - PROGRESS: at 37.17% examples, 7736 words/s, in_qsize 0, out_qsize 0
+2019-09-04 15:22:35,179 : INFO : EPOCH 3 - PROGRESS: at 78.51% examples, 8321 words/s, in_qsize 0, out_qsize 0
+2019-09-04 15:22:35,690 : INFO : worker thread finished; awaiting finish of 5 more threads
+2019-09-04 15:22:35,694 : INFO : worker thread finished; awaiting finish of 4 more threads
+2019-09-04 15:22:35,694 : INFO : worker thread finished; awaiting finish of 3 more threads
+2019-09-04 15:22:35,694 : INFO : worker thread finished; awaiting finish of 2 more threads
+2019-09-04 15:22:35,694 : INFO : worker thread finished; awaiting finish of 1 more threads
+2019-09-04 15:22:35,707 : INFO : worker thread finished; awaiting finish of 0 more threads
+2019-09-04 15:22:35,708 : INFO : EPOCH - 3 : training on 49914 raw words (22071 effective words) took 2.6s, 8396 effective words/s
+2019-09-04 15:22:36,722 : INFO : EPOCH 4 - PROGRESS: at 37.17% examples, 7792 words/s, in_qsize 0, out_qsize 0
+2019-09-04 15:22:37,837 : INFO : EPOCH 4 - PROGRESS: at 78.51% examples, 8328 words/s, in_qsize 0, out_qsize 0
+2019-09-04 15:22:38,356 : INFO : worker thread finished; awaiting finish of 5 more threads
+2019-09-04 15:22:38,357 : INFO : worker thread finished; awaiting finish of 4 more threads
+2019-09-04 15:22:38,357 : INFO : worker thread finished; awaiting finish of 3 more threads
+2019-09-04 15:22:38,357 : INFO : worker thread finished; awaiting finish of 2 more threads
+2019-09-04 15:22:38,357 : INFO : worker thread finished; awaiting finish of 1 more threads
+2019-09-04 15:22:38,372 : INFO : worker thread finished; awaiting finish of 0 more threads
+2019-09-04 15:22:38,372 : INFO : EPOCH - 4 : training on 49914 raw words (22246 effective words) took 2.7s, 8373 effective words/s
+2019-09-04 15:22:39,584 : INFO : EPOCH 5 - PROGRESS: at 37.17% examples, 6615 words/s, in_qsize 0, out_qsize 0
+2019-09-04 15:22:40,658 : INFO : EPOCH 5 - PROGRESS: at 78.51% examples, 7801 words/s, in_qsize 0, out_qsize 0
+2019-09-04 15:22:41,154 : INFO : worker thread finished; awaiting finish of 5 more threads
+2019-09-04 15:22:41,158 : INFO : worker thread finished; awaiting finish of 4 more threads
+2019-09-04 15:22:41,158 : INFO : worker thread finished; awaiting finish of 3 more threads
+2019-09-04 15:22:41,159 : INFO : worker thread finished; awaiting finish of 2 more threads
+2019-09-04 15:22:41,159 : INFO : worker thread finished; awaiting finish of 1 more threads
+2019-09-04 15:22:41,172 : INFO : worker thread finished; awaiting finish of 0 more threads
+2019-09-04 15:22:41,172 : INFO : EPOCH - 5 : training on 49914 raw words (22348 effective words) took 2.8s, 8007 effective words/s
+2019-09-04 15:22:41,173 : INFO : training on a 249570 raw words (110996 effective words) took 13.2s, 8414 effective words/s
+2019-09-04 15:22:41,173 : WARNING : under 10 jobs per worker: consider setting a smaller `batch_words' for smoother alpha decay
+2019-09-04 15:22:41,173 : INFO : storing 519x200 projection weights into ./data/Salary/word2vec.txt
+WARNING:tensorflow:From /home/lishukang/text_cnn/text_model.py:76: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-09-04 15:22:44,499 : WARNING : From /home/lishukang/text_cnn/text_model.py:76: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-09-04 15:22:49.591770: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: Tesla K20c major: 3 minor: 5 memoryClockRate(GHz): 0.7055
+pciBusID: 0000:05:00.0
+totalMemory: 4.63GiB freeMemory: 4.56GiB
+2019-09-04 15:22:49.591915: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-09-04 15:22:50.173747: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-04 15:22:50.173876: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-09-04 15:22:50.173907: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-09-04 15:22:50.174240: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 4326 MB memory) -> physical GPU (device: 0, name: Tesla K20c, pci bus id: 0000:05:00.0, compute capability: 3.5)
+开始训练词向量
+词向量训练完成
+词向量重写完成
+开始更新词向量
+词向量更新完成
+更新数量：505/520
+用时：0.17302799224853516
+-------------------------------------------
+Training word2vec model cost 16.114 seconds...
+
+Configuring CNN model...
+Configuring TensorBoard and Saver...
+Loading training and validation data...
+Time cost: 3.051 seconds...
+
+Training and evaluating...
+Epoch: 1
+step: 100,train loss: 0.934, train accuracy: 0.750, val loss: 0.666, val accuracy: 0.909,training speed: 0.026sec/batch *
+
+step: 200,train loss: 0.451, train accuracy: 1.000, val loss: 0.297, val accuracy: 0.947,training speed: 0.006sec/batch *
+
+step: 300,train loss: 0.484, train accuracy: 0.750, val loss: 0.182, val accuracy: 0.965,training speed: 0.006sec/batch *
+
+step: 400,train loss: 0.580, train accuracy: 0.750, val loss: 0.118, val accuracy: 0.980,training speed: 0.007sec/batch *
+
+step: 500,train loss: 0.182, train accuracy: 1.000, val loss: 0.079, val accuracy: 0.984,training speed: 0.007sec/batch *
+
+step: 600,train loss: 0.056, train accuracy: 1.000, val loss: 0.080, val accuracy: 0.981,training speed: 0.006sec/batch 
+
+step: 700,train loss: 0.075, train accuracy: 1.000, val loss: 0.051, val accuracy: 0.986,training speed: 0.007sec/batch *
+
+step: 800,train loss: 0.016, train accuracy: 1.000, val loss: 0.044, val accuracy: 0.989,training speed: 0.007sec/batch *
+
+step: 900,train loss: 0.004, train accuracy: 1.000, val loss: 0.041, val accuracy: 0.991,training speed: 0.007sec/batch *
+
+step: 1000,train loss: 0.009, train accuracy: 1.000, val loss: 0.038, val accuracy: 0.990,training speed: 0.006sec/batch 
+
+step: 1100,train loss: 0.016, train accuracy: 1.000, val loss: 0.033, val accuracy: 0.992,training speed: 0.006sec/batch *
+
+step: 1200,train loss: 0.000, train accuracy: 1.000, val loss: 0.031, val accuracy: 0.993,training speed: 0.006sec/batch *
+
+step: 1300,train loss: 0.003, train accuracy: 1.000, val loss: 0.038, val accuracy: 0.984,training speed: 0.006sec/batch 
+
+step: 1400,train loss: 0.007, train accuracy: 1.000, val loss: 0.026, val accuracy: 0.991,training speed: 0.007sec/batch 
+
+step: 1500,train loss: 0.032, train accuracy: 1.000, val loss: 0.025, val accuracy: 0.992,training speed: 0.006sec/batch 
+
+Epoch: 2
+step: 1600,train loss: 0.030, train accuracy: 1.000, val loss: 0.024, val accuracy: 0.990,training speed: 0.004sec/batch 
+
+step: 1700,train loss: 0.001, train accuracy: 1.000, val loss: 0.031, val accuracy: 0.990,training speed: 0.006sec/batch 
+
+step: 1800,train loss: 0.001, train accuracy: 1.000, val loss: 0.027, val accuracy: 0.992,training speed: 0.006sec/batch 
+
+step: 1900,train loss: 0.020, train accuracy: 1.000, val loss: 0.019, val accuracy: 0.994,training speed: 0.006sec/batch *
+
+step: 2000,train loss: 0.842, train accuracy: 0.750, val loss: 0.016, val accuracy: 0.996,training speed: 0.007sec/batch *
+
+step: 2100,train loss: 0.002, train accuracy: 1.000, val loss: 0.019, val accuracy: 0.995,training speed: 0.006sec/batch 
+
+step: 2200,train loss: 0.002, train accuracy: 1.000, val loss: 0.016, val accuracy: 0.996,training speed: 0.006sec/batch *
+
+step: 2300,train loss: 0.002, train accuracy: 1.000, val loss: 0.015, val accuracy: 0.994,training speed: 0.006sec/batch 
+
+step: 2400,train loss: 0.033, train accuracy: 1.000, val loss: 0.012, val accuracy: 0.997,training speed: 0.006sec/batch *
+
+step: 2500,train loss: 0.004, train accuracy: 1.000, val loss: 0.022, val accuracy: 0.993,training speed: 0.007sec/batch 
+
+step: 2600,train loss: 0.000, train accuracy: 1.000, val loss: 0.015, val accuracy: 0.997,training speed: 0.007sec/batch 
+
+step: 2700,train loss: 0.003, train accuracy: 1.000, val loss: 0.013, val accuracy: 0.997,training speed: 0.007sec/batch 
+
+step: 2800,train loss: 0.006, train accuracy: 1.000, val loss: 0.012, val accuracy: 0.998,training speed: 0.007sec/batch *
+
+step: 2900,train loss: 0.000, train accuracy: 1.000, val loss: 0.012, val accuracy: 0.999,training speed: 0.007sec/batch *
+
+step: 3000,train loss: 0.007, train accuracy: 1.000, val loss: 0.016, val accuracy: 0.996,training speed: 0.006sec/batch 
+
+step: 3100,train loss: 0.000, train accuracy: 1.000, val loss: 0.017, val accuracy: 0.996,training speed: 0.005sec/batch 
+
+Epoch: 3
+step: 3200,train loss: 0.000, train accuracy: 1.000, val loss: 0.011, val accuracy: 0.997,training speed: 0.005sec/batch 
+
+step: 3300,train loss: 0.020, train accuracy: 1.000, val loss: 0.016, val accuracy: 0.999,training speed: 0.005sec/batch 
+
+step: 3400,train loss: 0.001, train accuracy: 1.000, val loss: 0.014, val accuracy: 0.997,training speed: 0.006sec/batch 
+
+step: 3500,train loss: 0.000, train accuracy: 1.000, val loss: 0.013, val accuracy: 0.996,training speed: 0.006sec/batch 
+
+step: 3600,train loss: 0.000, train accuracy: 1.000, val loss: 0.021, val accuracy: 0.994,training speed: 0.006sec/batch 
+
+step: 3700,train loss: 0.005, train accuracy: 1.000, val loss: 0.010, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 3800,train loss: 0.000, train accuracy: 1.000, val loss: 0.009, val accuracy: 0.996,training speed: 0.006sec/batch 
+
+step: 3900,train loss: 0.000, train accuracy: 1.000, val loss: 0.019, val accuracy: 0.991,training speed: 0.006sec/batch 
+
+step: 4000,train loss: 0.000, train accuracy: 1.000, val loss: 0.009, val accuracy: 0.998,training speed: 0.007sec/batch 
+
+step: 4100,train loss: 0.001, train accuracy: 1.000, val loss: 0.009, val accuracy: 0.996,training speed: 0.005sec/batch 
+
+step: 4200,train loss: 0.000, train accuracy: 1.000, val loss: 0.008, val accuracy: 0.997,training speed: 0.006sec/batch 
+
+step: 4300,train loss: 0.001, train accuracy: 1.000, val loss: 0.009, val accuracy: 0.996,training speed: 0.006sec/batch 
+
+step: 4400,train loss: 0.001, train accuracy: 1.000, val loss: 0.007, val accuracy: 0.997,training speed: 0.005sec/batch 
+
+step: 4500,train loss: 0.000, train accuracy: 1.000, val loss: 0.007, val accuracy: 0.997,training speed: 0.006sec/batch 
+
+step: 4600,train loss: 0.000, train accuracy: 1.000, val loss: 0.006, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 4700,train loss: 0.004, train accuracy: 1.000, val loss: 0.015, val accuracy: 0.998,training speed: 0.006sec/batch 
+
+Epoch: 4
+step: 4800,train loss: 0.000, train accuracy: 1.000, val loss: 0.011, val accuracy: 0.997,training speed: 0.007sec/batch 
+
+step: 4900,train loss: 0.019, train accuracy: 1.000, val loss: 0.009, val accuracy: 0.997,training speed: 0.005sec/batch 
+
+step: 5000,train loss: 0.000, train accuracy: 1.000, val loss: 0.010, val accuracy: 0.997,training speed: 0.006sec/batch 
+
+step: 5100,train loss: 0.002, train accuracy: 1.000, val loss: 0.011, val accuracy: 0.997,training speed: 0.007sec/batch 
+
+step: 5200,train loss: 0.001, train accuracy: 1.000, val loss: 0.005, val accuracy: 0.998,training speed: 0.007sec/batch 
+
+step: 5300,train loss: 0.000, train accuracy: 1.000, val loss: 0.003, val accuracy: 0.999,training speed: 0.006sec/batch *
+
+step: 5400,train loss: 0.000, train accuracy: 1.000, val loss: 0.006, val accuracy: 0.998,training speed: 0.007sec/batch 
+
+step: 5500,train loss: 0.001, train accuracy: 1.000, val loss: 0.013, val accuracy: 0.998,training speed: 0.007sec/batch 
+
+step: 5600,train loss: 0.000, train accuracy: 1.000, val loss: 0.010, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 5700,train loss: 0.000, train accuracy: 1.000, val loss: 0.004, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 5800,train loss: 0.000, train accuracy: 1.000, val loss: 0.003, val accuracy: 0.999,training speed: 0.006sec/batch *
+
+step: 5900,train loss: 0.001, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.005sec/batch *
+
+step: 6000,train loss: 0.000, train accuracy: 1.000, val loss: 0.005, val accuracy: 0.998,training speed: 0.005sec/batch 
+
+step: 6100,train loss: 0.018, train accuracy: 1.000, val loss: 0.007, val accuracy: 0.998,training speed: 0.007sec/batch 
+
+step: 6200,train loss: 0.000, train accuracy: 1.000, val loss: 0.007, val accuracy: 0.997,training speed: 0.005sec/batch 
+
+Epoch: 5
+step: 6300,train loss: 0.000, train accuracy: 1.000, val loss: 0.005, val accuracy: 0.998,training speed: 0.002sec/batch 
+
+step: 6400,train loss: 0.000, train accuracy: 1.000, val loss: 0.006, val accuracy: 0.999,training speed: 0.005sec/batch 
+
+step: 6500,train loss: 0.000, train accuracy: 1.000, val loss: 0.005, val accuracy: 0.999,training speed: 0.005sec/batch 
+
+step: 6600,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 1.000,training speed: 0.005sec/batch 
+
+step: 6700,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 6800,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 6900,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 7000,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 7100,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 7200,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.006sec/batch *
+
+step: 7300,train loss: 0.000, train accuracy: 1.000, val loss: 0.004, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 7400,train loss: 0.004, train accuracy: 1.000, val loss: 0.003, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 7500,train loss: 0.020, train accuracy: 1.000, val loss: 0.003, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 7600,train loss: 0.000, train accuracy: 1.000, val loss: 0.004, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 7700,train loss: 0.001, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 7800,train loss: 0.047, train accuracy: 1.000, val loss: 0.005, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+Epoch: 6
+step: 7900,train loss: 0.000, train accuracy: 1.000, val loss: 0.003, val accuracy: 0.999,training speed: 0.004sec/batch 
+
+step: 8000,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 8100,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 8200,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 8300,train loss: 0.000, train accuracy: 1.000, val loss: 0.004, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 8400,train loss: 0.000, train accuracy: 1.000, val loss: 0.005, val accuracy: 0.999,training speed: 0.008sec/batch 
+
+step: 8500,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 8600,train loss: 0.001, train accuracy: 1.000, val loss: 0.009, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 8700,train loss: 0.107, train accuracy: 1.000, val loss: 0.006, val accuracy: 0.998,training speed: 0.005sec/batch 
+
+step: 8800,train loss: 0.000, train accuracy: 1.000, val loss: 0.003, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 8900,train loss: 0.017, train accuracy: 1.000, val loss: 0.003, val accuracy: 0.999,training speed: 0.005sec/batch 
+
+step: 9000,train loss: 0.017, train accuracy: 1.000, val loss: 0.007, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 9100,train loss: 0.000, train accuracy: 1.000, val loss: 0.006, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 9200,train loss: 0.004, train accuracy: 1.000, val loss: 0.004, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 9300,train loss: 0.002, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 9400,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+Epoch: 7
+step: 9500,train loss: 0.001, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 9600,train loss: 0.002, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 9700,train loss: 0.001, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 9800,train loss: 0.004, train accuracy: 1.000, val loss: 0.005, val accuracy: 0.997,training speed: 0.006sec/batch 
+
+step: 9900,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 10000,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 10100,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 10200,train loss: 0.000, train accuracy: 1.000, val loss: 0.009, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 10300,train loss: 0.000, train accuracy: 1.000, val loss: 0.007, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 10400,train loss: 0.302, train accuracy: 0.750, val loss: 0.015, val accuracy: 0.998,training speed: 0.007sec/batch 
+
+step: 10500,train loss: 0.000, train accuracy: 1.000, val loss: 0.007, val accuracy: 0.998,training speed: 0.006sec/batch 
+
+step: 10600,train loss: 0.000, train accuracy: 1.000, val loss: 0.015, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 10700,train loss: 0.002, train accuracy: 1.000, val loss: 0.004, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 10800,train loss: 0.000, train accuracy: 1.000, val loss: 0.007, val accuracy: 0.999,training speed: 0.008sec/batch 
+
+step: 10900,train loss: 0.000, train accuracy: 1.000, val loss: 0.013, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 11000,train loss: 0.000, train accuracy: 1.000, val loss: 0.012, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+Epoch: 8
+step: 11100,train loss: 0.000, train accuracy: 1.000, val loss: 0.019, val accuracy: 0.997,training speed: 0.008sec/batch 
+
+step: 11200,train loss: 0.000, train accuracy: 1.000, val loss: 0.018, val accuracy: 0.997,training speed: 0.007sec/batch 
+
+step: 11300,train loss: 0.000, train accuracy: 1.000, val loss: 0.017, val accuracy: 0.997,training speed: 0.007sec/batch 
+
+step: 11400,train loss: 0.000, train accuracy: 1.000, val loss: 0.010, val accuracy: 0.999,training speed: 0.005sec/batch 
+
+step: 11500,train loss: 0.001, train accuracy: 1.000, val loss: 0.011, val accuracy: 0.999,training speed: 0.005sec/batch 
+
+step: 11600,train loss: 0.000, train accuracy: 1.000, val loss: 0.011, val accuracy: 0.999,training speed: 0.005sec/batch 
+
+step: 11700,train loss: 0.000, train accuracy: 1.000, val loss: 0.014, val accuracy: 0.999,training speed: 0.005sec/batch 
+
+step: 11800,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 11900,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.004sec/batch 
+
+step: 12000,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 12100,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 12200,train loss: 0.001, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 12300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 12400,train loss: 0.001, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 12500,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.008sec/batch 
+
+Epoch: 9
+step: 12600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.003sec/batch 
+
+step: 12700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 12800,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 12900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 13000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 13100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 13200,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 13300,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 13400,train loss: 0.000, train accuracy: 1.000, val loss: 0.006, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 13500,train loss: 0.000, train accuracy: 1.000, val loss: 0.004, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 13600,train loss: 0.000, train accuracy: 1.000, val loss: 0.004, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 13700,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 13800,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 13900,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 14000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 14100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+Epoch: 10
+step: 14200,train loss: 0.000, train accuracy: 1.000, val loss: 0.003, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 14300,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 14400,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 14500,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 14600,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 14700,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 14800,train loss: 0.002, train accuracy: 1.000, val loss: 0.006, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 14900,train loss: 0.000, train accuracy: 1.000, val loss: 0.003, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 15000,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 15100,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 15200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 15300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 15400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 15500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 15600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 15700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+Epoch: 11
+step: 15800,train loss: 0.000, train accuracy: 1.000, val loss: 0.003, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 15900,train loss: 0.001, train accuracy: 1.000, val loss: 0.001, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 16000,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 16100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 16200,train loss: 0.910, train accuracy: 0.750, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 16300,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 16400,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 16500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 16600,train loss: 0.001, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 16700,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 16800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 16900,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 17000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 17100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 17200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 17300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+Epoch: 12
+step: 17400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 17500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 17600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 17700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 17800,train loss: 0.001, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 17900,train loss: 0.033, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 18000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 18100,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 18200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 18300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 18400,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 18500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 18600,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 18700,train loss: 0.000, train accuracy: 1.000, val loss: 0.004, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 18800,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+Epoch: 13
+step: 18900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.003sec/batch 
+
+step: 19000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 19100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 19200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 19300,train loss: 0.002, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 19400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 19500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 19600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 19700,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 19800,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 19900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 20000,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 20100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 20200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 20300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 20400,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+Epoch: 14
+step: 20500,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 20600,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 20700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 20800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 20900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 21000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 21100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 21200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 21300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 21400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 21500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 21600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 21700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 21800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 21900,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 22000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+Epoch: 15
+step: 22100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 22200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 22300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 22400,train loss: 0.000, train accuracy: 1.000, val loss: 0.004, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 22500,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 22600,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 22700,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 22800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 22900,train loss: 0.000, train accuracy: 1.000, val loss: 0.006, val accuracy: 0.999,training speed: 0.008sec/batch 
+
+step: 23000,train loss: 0.000, train accuracy: 1.000, val loss: 0.004, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 23100,train loss: 0.000, train accuracy: 1.000, val loss: 0.004, val accuracy: 0.999,training speed: 0.008sec/batch 
+
+step: 23200,train loss: 0.000, train accuracy: 1.000, val loss: 0.003, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 23300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 23400,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 23500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 23600,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+Epoch: 16
+step: 23700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.009sec/batch 
+
+step: 23800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 23900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 24000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 24100,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 24200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 24300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 24400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 24500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 24600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 24700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 24800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 24900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 25000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.005sec/batch 
+
+step: 25100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+Epoch: 17
+step: 25200,train loss: 0.000, train accuracy: 1.000, val loss: 0.006, val accuracy: 0.998,training speed: 0.003sec/batch 
+
+step: 25300,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 25400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 25500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 25600,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 25700,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 0.999,training speed: 0.005sec/batch 
+
+step: 25800,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 25900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 26000,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 26100,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 26200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 26300,train loss: 0.001, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 26400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 26500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 26600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 26700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+Epoch: 18
+step: 26800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.005sec/batch 
+
+step: 26900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 27000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.005sec/batch 
+
+step: 27100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 27200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 27300,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 27400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 27500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 27600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 27700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 27800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 27900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 28000,train loss: 0.018, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 28100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 28200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 28300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+Epoch: 19
+step: 28400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 28500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 28600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 28700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 28800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 28900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 29000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 29100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.005sec/batch 
+
+step: 29200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 29300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 29400,train loss: 0.001, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 29500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 29600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 29700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.005sec/batch 
+
+step: 29800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 29900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+Epoch: 20
+step: 30000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.010sec/batch 
+
+step: 30100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 30200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 30300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 30400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 30500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 30600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 30700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.005sec/batch 
+
+step: 30800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.005sec/batch 
+
+step: 30900,train loss: 0.000, train accuracy: 1.000, val loss: 0.014, val accuracy: 0.995,training speed: 0.006sec/batch 
+
+step: 31000,train loss: 0.000, train accuracy: 1.000, val loss: 0.006, val accuracy: 0.999,training speed: 0.008sec/batch 
+
+step: 31100,train loss: 0.007, train accuracy: 1.000, val loss: 0.014, val accuracy: 0.998,training speed: 0.006sec/batch 
+
+step: 31200,train loss: 0.000, train accuracy: 1.000, val loss: 0.003, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 31300,train loss: 0.000, train accuracy: 1.000, val loss: 0.004, val accuracy: 0.999,training speed: 0.005sec/batch 
+
+step: 31400,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+Epoch: 21
+step: 31500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 31600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 31700,train loss: 0.000, train accuracy: 1.000, val loss: 0.003, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 31800,train loss: 0.000, train accuracy: 1.000, val loss: 0.003, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 31900,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 32000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 32100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 32200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 32300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 32400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 32500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 32600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 32700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 32800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 32900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 33000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+Epoch: 22
+step: 33100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.005sec/batch 
+
+step: 33200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 33300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 33400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 33500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 33600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 33700,train loss: 0.006, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 33800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 33900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 34000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 34100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 34200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 34300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 34400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 34500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 34600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+Epoch: 23
+step: 34700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 34800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 34900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 35000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 35100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 35200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 35300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 35400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 35500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 35600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 35700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 35800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 35900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 36000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.005sec/batch 
+
+step: 36100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 36200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+Epoch: 24
+step: 36300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 36400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 36500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 36600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 36700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 36800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 36900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 37000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 37100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 37200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 37300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 37400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 37500,train loss: 1.086, train accuracy: 0.750, val loss: 0.012, val accuracy: 0.996,training speed: 0.006sec/batch 
+
+step: 37600,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 37700,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+Epoch: 25
+step: 37800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 37900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 38000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 38100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 38200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 38300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 38400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.005sec/batch 
+
+step: 38500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 38600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 38700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 38800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 38900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 39000,train loss: 0.000, train accuracy: 1.000, val loss: 0.006, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 39100,train loss: 0.000, train accuracy: 1.000, val loss: 0.004, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 39200,train loss: 0.000, train accuracy: 1.000, val loss: 0.003, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 39300,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+Epoch: 26
+step: 39400,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.005sec/batch 
+
+step: 39500,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 39600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 39700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 39800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 39900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 40000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 40100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 40200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 40300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 40400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 40500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 40600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 40700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 40800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 40900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+Epoch: 27
+step: 41000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.005sec/batch 
+
+step: 41100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 41200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 41300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 41400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 41500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 41600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 41700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 41800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 41900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 42000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 42100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 42200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 42300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 42400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+Epoch: 28
+step: 42500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.002sec/batch 
+
+step: 42600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 42700,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 42800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 42900,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 43000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 43100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 43200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 43300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 43400,train loss: 0.000, train accuracy: 1.000, val loss: 0.003, val accuracy: 0.999,training speed: 0.006sec/batch 
+
+step: 43500,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.007sec/batch 
+
+step: 43600,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 43700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 43800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 43900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 44000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+Epoch: 29
+step: 44100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.004sec/batch 
+
+step: 44200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 44300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 44400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 44500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 44600,train loss: 0.001, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 44700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 44800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 44900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 45000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 45100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 45200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 45300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 45400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 45500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 45600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+Epoch: 30
+step: 45700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 45800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 45900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 46000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 46100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 46200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 46300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 46400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 46500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 46600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 46700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 46800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 46900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 47000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 47100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 47200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+Epoch: 31
+step: 47300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 47400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 47500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 47600,train loss: 0.001, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 47700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 47800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 47900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 48000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 48100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 48200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 48300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 48400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 48500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 48600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 48700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+Epoch: 32
+step: 48800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.003sec/batch 
+
+step: 48900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 49000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 49100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 49200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 49300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 49400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 49500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 49600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 49700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 49800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 49900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 50000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 50100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 50200,train loss: 0.000, train accuracy: 1.000, val loss: 0.001, val accuracy: 0.999,training speed: 0.008sec/batch 
+
+step: 50300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+Epoch: 33
+step: 50400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.005sec/batch 
+
+step: 50500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 50600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 50700,train loss: 0.000, train accuracy: 1.000, val loss: 0.002, val accuracy: 0.999,training speed: 0.008sec/batch 
+
+step: 50800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 50900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 51000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 51100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 51200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 51300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 51400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 51500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 51600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 51700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 51800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 51900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+Epoch: 34
+step: 52000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.005sec/batch 
+
+step: 52100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 52200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 52300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 52400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 52500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 52600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 52700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 52800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 52900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 53000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 53100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 53200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 53300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 53400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 53500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+Epoch: 35
+step: 53600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 53700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 53800,train loss: 0.223, train accuracy: 0.750, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 53900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 54000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 54100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 54200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 54300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 54400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 54500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 54600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 54700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 54800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 54900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 55000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+Epoch: 36
+step: 55100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.003sec/batch 
+
+step: 55200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 55300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 55400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 55500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 55600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 55700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 55800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 55900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 56000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 56100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+step: 56200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 56300,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 56400,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 56500,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 56600,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+Epoch: 37
+step: 56700,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.005sec/batch 
+
+step: 56800,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.006sec/batch 
+
+step: 56900,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 57000,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 57100,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.007sec/batch 
+
+step: 57200,train loss: 0.000, train accuracy: 1.000, val loss: 0.000, val accuracy: 1.000,training speed: 0.008sec/batch 
+
+No optimization over 50000 steps, stop training
+train done
+model update success!
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 1.560 seconds.
+Prefix dict has been built succesfully.
+2019-09-04 16:49:54.212249: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: Tesla K20c major: 3 minor: 5 memoryClockRate(GHz): 0.7055
+pciBusID: 0000:05:00.0
+totalMemory: 4.63GiB freeMemory: 4.56GiB
+2019-09-04 16:49:54.212478: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-09-04 16:49:54.839856: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-04 16:49:54.839976: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-09-04 16:49:54.840008: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-09-04 16:49:54.840385: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 4326 MB memory) -> physical GPU (device: 0, name: Tesla K20c, pci bus id: 0000:05:00.0, compute capability: 3.5)
+现在养老保险每月交多少钱
+ {'predict_list': [{'ctg_id': 'calculation_method', 'acc': 0.9999517202377319}]}
+五险一金多少钱怎么算
+ {'predict_list': [{'ctg_id': 'calculation_method', 'acc': 0.9997884631156921}]}
+社保每月扣多少钱
+ {'predict_list': [{'ctg_id': 'calculation_method', 'acc': 0.9634939432144165}]}
+社会保险一个月要交多少钱
+ {'predict_list': [{'ctg_id': 'calculation_method', 'acc': 0.9999632835388184}]}
+公积金一个月要交多少钱
+ {'predict_list': [{'ctg_id': 'calculation_method', 'acc': 0.9999663829803467}]}
+2014住房公积金一个月要交多少钱
+ {'predict_list': [{'ctg_id': 'calculation_method', 'acc': 0.9997979998588562}]}
+个人医疗保险如何计算
+ {'predict_list': [{'ctg_id': 'calculation_method', 'acc': 0.9982669353485107}]}
+公司给的医疗保险怎么算？
+ {'predict_list': [{'ctg_id': 'calculation_method', 'acc': 0.9300561547279358}]}
+医疗保险怎么算？
+ {'predict_list': [{'ctg_id': 'calculation_method', 'acc': 0.8746391534805298}]}
+医疗保险标准是如何确定的？
+ {'predict_list': [{'ctg_id': 'calculation_method', 'acc': 0.9974996447563171}]}
+医疗保险费是如何计算的
+ {'predict_list': [{'ctg_id': 'calculation_method', 'acc': 0.9986268281936646}]}
+*
+2014社会保险断了有什么影响
+ {'predict_list': [{'ctg_id': 'consequences', 'acc': 0.9999908208847046}]}
+社会保险缴费中断对个人会造成哪些影响呢？
+ {'predict_list': [{'ctg_id': 'consequences', 'acc': 0.9999997615814209}]}
+社会保险停缴后会有什么后果呢？
+ {'predict_list': [{'ctg_id': 'consequences', 'acc': 0.9999831914901733}]}
+社会保险缴费中断该怎么办？
+ {'predict_list': [{'ctg_id': 'consequences', 'acc': 0.9985045194625854}]}
+2014养老金断了有什么影响
+ {'predict_list': [{'ctg_id': 'consequences', 'acc': 0.9999558925628662}]}
+社保断缴有没有什么影响？
+ {'predict_list': [{'ctg_id': 'consequences', 'acc': 0.9999700784683228}]}
+社会保险中断有何影响？
+ {'predict_list': [{'ctg_id': 'consequences', 'acc': 0.9999994039535522}]}
+辞职后社会保险中断有何影响？
+ {'predict_list': [{'ctg_id': 'consequences', 'acc': 0.9999991655349731}]}
+社会保险断交了怎么办？
+ {'predict_list': [{'ctg_id': 'consequences', 'acc': 0.8556721806526184}]}
+社会保险断了有什么影响？
+ {'predict_list': [{'ctg_id': 'consequences', 'acc': 0.9998716115951538}]}
+2014社会保险断了有什么影响
+ {'predict_list': [{'ctg_id': 'consequences', 'acc': 0.9999828338623047}]}
+*
+五险一金指的是什么？
+ {'predict_list': [{'ctg_id': 'introduction', 'acc': 0.9980428218841553}]}
+养老保险的定义是什么？
+ {'predict_list': [{'ctg_id': 'introduction', 'acc': 0.999700665473938}]}
+什么是企业年金的定义？
+ {'predict_list': [{'ctg_id': 'introduction', 'acc': 0.9999910593032837}]}
+什么是养老金？
+ {'predict_list': [{'ctg_id': 'introduction', 'acc': 0.999988317489624}]}
+社保是什么意思？
+ {'predict_list': [{'ctg_id': 'introduction', 'acc': 0.9997109770774841}]}
+个人社会保险指的是什么？
+ {'predict_list': [{'ctg_id': 'introduction', 'acc': 0.9995841383934021}]}
+什么是社会保险费？
+ {'predict_list': [{'ctg_id': 'introduction', 'acc': 0.9999784231185913}]}
+社保号是什么？
+ {'predict_list': [{'ctg_id': 'introduction', 'acc': 0.9913807511329651}]}
+什么是个人社会保险
+ {'predict_list': [{'ctg_id': 'introduction', 'acc': 0.9999932050704956}]}
+什么是基本医疗保险制度？
+ {'predict_list': [{'ctg_id': 'introduction', 'acc': 0.9999674558639526}]}
+基本养老金是什么
+ {'predict_list': [{'ctg_id': 'introduction', 'acc': 0.9999728202819824}]}
+*
+2014年度深圳社会保险缴费基数
+ {'predict_list': [{'ctg_id': 'payment_base', 'acc': 0.9168758392333984}]}
+2014年青岛社会保险缴存基数
+ {'predict_list': [{'ctg_id': 'payment_base', 'acc': 0.9917185306549072}]}
+广州社会保险缴纳基数是多少？
+ {'predict_list': [{'ctg_id': 'payment_base', 'acc': 0.6393206715583801}]}
+养老保险的月缴费基数是多少？
+ {'predict_list': [{'ctg_id': 'payment_base', 'acc': 0.577392041683197}]}
+2014年养老保险基数是多少？
+ {'predict_list': [{'ctg_id': 'payment_base', 'acc': 0.9869274497032166}]}
+西安养老保险基数是多少
+ {'predict_list': [{'ctg_id': 'payment_base', 'acc': 0.9989818930625916}]}
+2014年郑州市养老保险缴费基数是多少
+ {'predict_list': [{'ctg_id': 'payment_base', 'acc': 0.9536418914794922}]}
+个人缴纳养老保险基数
+ {'predict_list': [{'ctg_id': 'payment_base', 'acc': 0.9970456957817078}]}
+2014年武汉养老保险缴费基数
+ {'predict_list': [{'ctg_id': 'payment_base', 'acc': 0.5944467782974243}]}
+2014合肥养老保险缴费基数
+ {'predict_list': [{'ctg_id': 'payment_base', 'acc': 0.47152218222618103}]}
+2014年度深圳养老保险缴费基数
+ {'predict_list': [{'ctg_id': 'transact_process', 'acc': 0.4608355462551117}]}
+*
+事业单位社保怎么交?
+ {'predict_list': [{'ctg_id': 'payment_method', 'acc': 0.9879798889160156}]}
+2014个人怎么缴纳社保费？
+ {'predict_list': [{'ctg_id': 'payment_method', 'acc': 0.9999998807907104}]}
+个人怎么缴纳社保费？
+ {'predict_list': [{'ctg_id': 'payment_method', 'acc': 0.9999992847442627}]}
+个人如何缴纳社保？
+ {'predict_list': [{'ctg_id': 'payment_method', 'acc': 0.9999014139175415}]}
+社会社会保险的缴费方式有哪些
+ {'predict_list': [{'ctg_id': 'payment_method', 'acc': 0.9998486042022705}]}
+事业单位社会保险怎么交?
+ {'predict_list': [{'ctg_id': 'payment_method', 'acc': 0.9999504089355469}]}
+个人应该如何缴纳养老保险？
+ {'predict_list': [{'ctg_id': 'payment_method', 'acc': 0.9999910593032837}]}
+2013年职工个人如何缴纳社会保险费？
+ {'predict_list': [{'ctg_id': 'payment_method', 'acc': 0.9999946355819702}]}
+个人社保怎么缴费？
+ {'predict_list': [{'ctg_id': 'payment_method', 'acc': 0.9901830554008484}]}
+个人自己缴纳社保的方法
+ {'predict_list': [{'ctg_id': 'payment_method', 'acc': 0.915937602519989}]}
+社保的个人缴纳途径？
+ {'predict_list': [{'ctg_id': 'payment_method', 'acc': 0.9992966651916504}]}
+*
+社会保险比例是多少？
+ {'predict_list': [{'ctg_id': 'payment_ratio', 'acc': 0.9999016523361206}]}
+2014年郑州市社会保险缴费比例
+ {'predict_list': [{'ctg_id': 'payment_method', 'acc': 0.6382846832275391}]}
+2014社会保险费缴费比例是多少
+ {'predict_list': [{'ctg_id': 'payment_ratio', 'acc': 0.7681496739387512}]}
+社会保险缴费比例是多少
+ {'predict_list': [{'ctg_id': 'payment_ratio', 'acc': 0.9250268936157227}]}
+上海市社保缴费比例是多少
+ {'predict_list': [{'ctg_id': 'payment_ratio', 'acc': 0.761925220489502}]}
+上海社保个人缴纳比例是多少？
+ {'predict_list': [{'ctg_id': 'payment_ratio', 'acc': 0.6077079772949219}]}
+2014年青岛养老保险缴纳比例
+ {'predict_list': [{'ctg_id': 'introduction', 'acc': 0.7505818009376526}]}
+成都养老保险个人账户缴费比例
+ {'predict_list': [{'ctg_id': 'introduction', 'acc': 0.8070323467254639}]}
+广州养老保险缴纳比例是多少2014
+ {'predict_list': [{'ctg_id': 'payment_ratio', 'acc': 0.995503842830658}]}
+医疗保险之医疗保险缴费比例
+ {'predict_list': [{'ctg_id': 'payment_method', 'acc': 0.6835685968399048}]}
+上海医疗保险缴纳比例是怎么样的？
+ {'predict_list': [{'ctg_id': 'introduction', 'acc': 0.41182902455329895}]}
+*
+个人社会保障号码查询
+ {'predict_list': [{'ctg_id': 'query_method', 'acc': 0.9999997615814209}]}
+中国个人社保查询网
+ {'predict_list': [{'ctg_id': 'query_method', 'acc': 0.9998754262924194}]}
+养老保险缴纳记录查询
+ {'predict_list': [{'ctg_id': 'query_method', 'acc': 0.9999997615814209}]}
+2014个人社保查询方法
+ {'predict_list': [{'ctg_id': 'query_method', 'acc': 0.9999862909317017}]}
+如何查询个人缴费记录
+ {'predict_list': [{'ctg_id': 'query_method', 'acc': 0.9996359348297119}]}
+怎么查询个人缴费记录？
+ {'predict_list': [{'ctg_id': 'query_method', 'acc': 0.999876856803894}]}
+如何查询社保明细？
+ {'predict_list': [{'ctg_id': 'query_method', 'acc': 0.9995620846748352}]}
+最新新疆社保个人查询？
+ {'predict_list': [{'ctg_id': 'query_method', 'acc': 0.9999388456344604}]}
+2014网上如何查询个人缴费记录
+ {'predict_list': [{'ctg_id': 'query_method', 'acc': 0.999987006187439}]}
+最新企业年金个人怎么查询
+ {'predict_list': [{'ctg_id': 'query_method', 'acc': 0.9999948740005493}]}
+如何查询个人养老保险缴纳的情况
+ {'predict_list': [{'ctg_id': 'query_method', 'acc': 0.9990547299385071}]}
+*
+北京社保办理流程？
+ {'predict_list': [{'ctg_id': 'transact_process', 'acc': 0.9999843835830688}]}
+2014住房公积金办理流程？
+ {'predict_list': [{'ctg_id': 'transact_process', 'acc': 0.9999978542327881}]}
+单位办理社保流程是什么？
+ {'predict_list': [{'ctg_id': 'transact_process', 'acc': 0.9927358627319336}]}
+什么是单位办理社保流程？
+ {'predict_list': [{'ctg_id': 'transact_process', 'acc': 0.9996672868728638}]}
+社保办理材料有哪些？
+ {'predict_list': [{'ctg_id': 'transact_process', 'acc': 0.9653610587120056}]}
+2014最新个人社保如何办理
+ {'predict_list': [{'ctg_id': 'transact_process', 'acc': 0.9999682903289795}]}
+企业如何办理失业保险？
+ {'predict_list': [{'ctg_id': 'transact_process', 'acc': 0.9998372793197632}]}
+单位办理社保流程
+ {'predict_list': [{'ctg_id': 'transact_process', 'acc': 0.9731769561767578}]}
+企业办理社保需要什么材料
+ {'predict_list': [{'ctg_id': 'transact_process', 'acc': 0.9989376664161682}]}
+2014企业办理社保需要什么材料
+ {'predict_list': [{'ctg_id': 'transact_process', 'acc': 0.9998118281364441}]}
+办理社会保险需要什么材料
+ {'predict_list': [{'ctg_id': 'transact_process', 'acc': 0.9787557125091553}]}
+*
+社保转移接续条件是什么？
+ {'predict_list': [{'ctg_id': 'transfer_method', 'acc': 0.9999948740005493}]}
+养老保险账户如何转移
+ {'predict_list': [{'ctg_id': 'transfer_method', 'acc': 0.9999992847442627}]}
+社保转移接续需要的材料是什么？
+ {'predict_list': [{'ctg_id': 'transfer_method', 'acc': 0.9999997615814209}]}
+五险一金如何跨省转移？
+ {'predict_list': [{'ctg_id': 'transfer_method', 'acc': 0.9999995231628418}]}
+省内社保转移手续有哪些
+ {'predict_list': [{'ctg_id': 'transfer_method', 'acc': 0.9999959468841553}]}
+最新社保卡异地转移如何申请
+ {'predict_list': [{'ctg_id': 'transfer_method', 'acc': 0.9999988079071045}]}
+社保异地转移申请材料？
+ {'predict_list': [{'ctg_id': 'transfer_method', 'acc': 0.9999552965164185}]}
+养老保险跨省转移怎么转
+ {'predict_list': [{'ctg_id': 'transfer_method', 'acc': 0.9999998807907104}]}
+失业保险关系的转移接续
+ {'predict_list': [{'ctg_id': 'transfer_method', 'acc': 0.9999881982803345}]}
+异地社保如何转回户口归属地？
+ {'predict_list': [{'ctg_id': 'transfer_method', 'acc': 0.9998133778572083}]}
+社保转移接续需要什么条件 {'predict_list': [{'ctg_id': 'transfer_method', 'acc': 0.9999998807907104}]}

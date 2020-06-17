@@ -1,0 +1,6 @@
+redis
+flask
+jieba
+tensorflow
+numpy
+gensim
